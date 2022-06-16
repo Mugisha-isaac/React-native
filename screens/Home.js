@@ -16,6 +16,9 @@ const Home = ()=>{
                       <FlatList
                         data={NFTData}
                         renderItem={({item})=><Text> {item.name}</Text>}
+                        keyExtractor={(item)=>item.id}
+                        showsVerticalScrollIndicator={false}
+                        ListHeaderComponent={<HomeHeader />}
                       />
                 </View>
             </View>
