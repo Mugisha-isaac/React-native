@@ -18,7 +18,7 @@ const Home = ()=>{
                         renderItem={({item})=><Text> {item.name}</Text>}
                         keyExtractor={(item)=>item.id}
                         showsVerticalScrollIndicator={false}
-                        ListHeaderComponent={<HomeHeader />}
+                        ListHeaderComponent={<HomeHeader /> }
                       />
                 </View>
             </View>
