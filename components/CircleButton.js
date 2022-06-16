@@ -15,7 +15,6 @@ import { COLORS, SHADOWS, SIZES } from '../constants'
 export  const RectButton = () => {
     return (
      <TouchableOpacity style={{width:40, height:40, backgroundColor:COLORS.white, position:'absolute', borderRadius:SIZES.extraLarge,alignItems:'center', justifyContent:'center',...SHADOWS.light,...props}}>
-            hello
      </TouchableOpacity>
     )
   }
