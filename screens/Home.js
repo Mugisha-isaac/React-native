@@ -4,8 +4,6 @@ import {COLORS,NFTData} from '../constants';
 import {NFTCard,FocusedStatusBar,HomeHeader} from '../components'
 
 
-
-
 const Home = ()=>{
     return(
        <SafeAreaView style={{flex:1}}>
